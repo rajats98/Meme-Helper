@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-header .download-btn {
+  background-color: #61dafb; /* Green */
+  border: none;
+  color: #282c34;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+}
+input[type='text'],
+select {
+  /* width: 40%; */
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label {
+  font-size: small;
+  padding: 10px;
+}
+input,
+select {
+  margin: 5px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.memeContainer .title {
+  color: rgb(61, 53, 3);
+}
+
+.memeContainer .meme.image {
+  display: none;
+}
+.memeContainer .meme {
+  max-height: 400px;
+  max-width: 700px;
+}
