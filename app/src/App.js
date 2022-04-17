@@ -59,7 +59,7 @@ function App() {
       ctx.fillStyle = 'black';
 
       ctx.drawImage(img, 0, imageOffsetY);
-      ctx.font = '50px arial';
+      ctx.font = '40px arial';
       ctx.fillText(config.text, 5, textOffsetY + 30, canv.width - 10);
     };
     img.onload = paintCanvas;
